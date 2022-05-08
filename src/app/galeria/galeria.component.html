@@ -1,80 +1,68 @@
 <div class="container-fluid">
-  <!--<div class="dropdown d-flex justify-content-center mb-4">
-    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
-      Seleccionar categoria
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-      <li><a class="dropdown-item" (click)="SeleccionarTodas()">no filtro</a></li>
-      <li><a class="dropdown-item" (click)="SeleccionarInterior()">Interiores</a></li>
-      <li><a class="dropdown-item" (click)="SeleccionarExterior()">Exteriores</a></li>
-      <li><a class="dropdown-item" (click)="SeleccionarArte()">Arte</a></li>
-    </ul>
-  </div>-->
   <div class="t">
     <h2>Busca y crea
       <br>Por un medio ambiente mejor</h2>
   </div>
   <div class="row subnav">
     <div class="col forma text-center text-uppercase">
-      <button type="button " class="btn-lg">
-        <b>SIN FILTRO</b></button>
+      <button type="button " class="btn-lg" (click)="SeleccionarTodas()"><b>SIN FILTRO</b></button>
     </div>
     <div class="col forma text-center text-uppercase">
-      <button type="button" class="btn-lg"><b>INTERIORES</b></button>
+      <button type="button" class="btn-lg" (click)="SeleccionarInterior()"><b>INTERIORES</b></button>
     </div>
     <div class="col forma text-center text-uppercase">
-      <button type="button" class="btn-lg"><b>EXTERIORES</b></button>
+      <button type="button" class="btn-lg" (click)="SeleccionarExterior()"><b>EXTERIORES</b></button>
     </div>
     <div class="col forma text-center text-uppercase">
-      <button type="button" class="btn-lg"><b>ARTE</b></button>
+      <button type="button" class="btn-lg" (click)="SeleccionarArte()"><b>ARTE</b></button>
     </div>
   </div>
   <div class="row g-0">
     <div class="col">
-      <div class="data-box" data-item="interior">
+      <div class="data-box" data-item="exterior">
         <img
-          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          src="https://blog.oxfamintermon.org/wp-content/uploads/2019/07/reciclar-botellas-de-plástico-_2.jpg"
           class="shadow-1-strong rounded"
-          alt="Boat on Calm Water"
-        />
-      </div>
-      <div class="data-box" data-item="interior">
-        <img
-          src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-          class="shadow-1-strong rounded"
-          alt="Wintry Mountain Landscape"
-        />
-      </div>
-    </div>
-    <div class="col">
-      <div class="data-box" data-item="interior">
-        <img
-          src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-          class="shadow-1-strong rounded"
-          alt="Mountains in the Clouds"
+          alt="reciclaje botellas"
         />
       </div>
       <div class="data-box" data-item="exterior">
         <img
-          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          src="https://parquesalegres.org/wp-content/uploads/2019/07/es-reutilizar.jpg"
           class="shadow-1-strong rounded"
-          alt="Boat on Calm Water"
+          alt="reciclaje llantas"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <div class="data-box" data-item="exterior">
+        <img
+          src="https://www.bbva.com/wp-content/uploads/2021/08/BBVA-Podcast_Futuro_sostenible-RECICLAJE-botellas-plastico-reutilizar-objetos-cuidar-medioambiente-.jpg"
+          class="shadow-1-strong rounded"
+          alt="reciclaje botellas"
+        />
+      </div>
+      <div class="data-box" data-item="interior">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTb8FkmGPYJTq7OCqoB_2AQJTA5N4XjuzmHA&usqp=CAU"
+          class="shadow-1-strong rounded"
+          alt="reciclaje bolsas de te"
         />
       </div>
     </div>   
     <div class="col">
-      <div class="data-box" data-item="interior">
+      <div class="data-box" data-item="exterior">
         <img
-          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGZs6XeRKFiFlMLgBWpmk-0Qa5OxKgAuWGQ&usqp=CAU"
           class="shadow-1-strong rounded"
-          alt="Waves at Sea"
+          alt="reciclaje tapas de botellas"
         />
       </div>
-      <div class="data-box" data-item="interior">
+      <div class="data-box" data-item="exterior">
         <img
-          src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+          src="https://www.bbvaopenmind.com/wp-content/uploads/2020/02/BBVA-OpenMind-Reciclaje-Países-2.jpg"
           class="shadow-1-strong rounded"
-          alt="Yosemite National Park"
+          alt="contenedores para reciclado de diferentes materiales"
         />
       </div>
     </div>

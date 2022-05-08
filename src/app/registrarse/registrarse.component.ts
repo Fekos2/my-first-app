@@ -5,6 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './registrarse.component.html',
   styleUrls: ['./registrarse.component.scss']
 })
+
+
 export class RegistrarseComponent implements OnInit {
 
   constructor() { }
@@ -12,4 +14,7 @@ export class RegistrarseComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  submitIngresar() {
+    console.log("dsimsidm");
+  }
 }
