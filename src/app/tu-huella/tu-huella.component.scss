@@ -1,8 +1,17 @@
 .container-fluid {
-    background-image: url("../../assets/Icono/Rectangle 1.svg"), url("../../assets/Icono/Rectangle_verde.svg");
+    background-image: url("../../assets/Icono/Rectangle 1.svg"), url("../../assets/Icono/Rectangle_verde.svg"), 
+    url("../../assets/img/environmental-conservation-in-the-garden-for-children.jpg");
     background-repeat: no-repeat;
-    background-position-y:  -38vh, bottom;
-
+    background-position-y:  -38vh, bottom, bottom;
+    background-size: auto,auto,100%;
+    /*<select id="select">     <option>normal</option>    
+     <option>multiply</option>     <option selected>screen</option>  
+        <option>overlay</option>     <option>darken</option>    
+         <option>lighten</option>     <option>color-dodge</option>   
+           <option>color-burn</option>     <option>hard-light</option>  
+              <option>soft-light</option>     <option>difference</option>   
+                <option>exclusion</option>     <option>hue</option>     <option>saturation</option>    
+                 <option>color</option>     <option>luminosity</option> </select>*/
     min-height: 94vh;
 
     color: white;
